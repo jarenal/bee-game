@@ -14,13 +14,11 @@ if(!isset($_SESSION['bees']))
 		$bees[] = array("name"=>"Worker", "life"=>75);
 	}
 
-
 	// Drones
 	for($i=0; $i<8; $i++)
 	{
 		$bees[] = array("name"=>"Drone", "life"=>50);
 	}
-
 
 }
 else

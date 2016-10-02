@@ -2,7 +2,7 @@
 
 session_start();
 
-if($_GET['restart']==true)
+if(isset($_GET['restart']) && $_GET['restart']==true)
 	unset($_SESSION['bees']);
 
  ?>
