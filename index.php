@@ -2,8 +2,9 @@
 
 session_start();
 
-if(isset($_GET['restart']) && $_GET['restart']==true)
-	unset($_SESSION['bees']);
+if (isset($_GET['restart']) && $_GET['restart']==true) {
+    unset($_SESSION['bees']);
+}
 
  ?>
 <!DOCTYPE html>
